@@ -1,0 +1,8 @@
+lamps = 88
+power = 13
+time = 12
+energy = lamps * power * time
+energy = lamps * power * time / 1000
+price_per_day = energy * 0.25 
+price_per_year = price_per_day * 365
+price_per_month = price_per_year / 12
